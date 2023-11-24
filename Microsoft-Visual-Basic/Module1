@@ -1,0 +1,17 @@
+
+Sub Макрос1()
+'
+' Макрос1 Макрос
+'
+
+'
+    Range("A32:A39").Select
+    With Selection.Interior.Color = 255
+        .Pattern = xlSolid
+        .PatternColorIndex = xlAutomatic
+        
+        .TintAndShade = 0
+        .PatternTintAndShade = 0
+    End With
+    ActiveWorkbook.Save
+End Sub
