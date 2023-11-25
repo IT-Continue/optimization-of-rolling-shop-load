@@ -17,4 +17,8 @@ answer_done.csv - оптимизированная смена
 4) Запустите dataframe_preprocessing.ipynb
 5) В итоге должны получится два этих файла
 
+# генерация файла answer_done.csv из excel
+аналогично series_done.csv и oven_done.csv только убедитесь что на последнем листе есть ответы макроса
 
+# data_structure.ipynb
+содержит недоделанные скрипты других вариантов решения
